@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="oes-shiro:war">
+    <output-path>$PROJECT_DIR$/oes-shiro/target</output-path>
+    <root id="archive" name="oes-shiro.war">
+      <element id="artifact" artifact-name="oes-shiro:war exploded" />
+    </root>
+  </artifact>
+</component>

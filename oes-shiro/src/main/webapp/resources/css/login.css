@@ -1,0 +1,164 @@
+.ccdiv1 {
+    position: absolute;
+    width: 820px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -410px;
+    margin-top: -340px;
+    background-color: #205983;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,
+    direction=120, strength=4); /*ie*/
+    -moz-box-shadow: 2px 2px 10px #909090; /*firefox*/
+    -webkit-box-shadow: 2px 2px 10px #909090; /*safari或chrome*/
+    box-shadow: 2px 2px 10px #909090; /*opera或ie9*/
+}
+
+.ccdiv2 {
+    position: absolute;
+    width: 820px;
+    height: 470px;
+    left: 50%;
+    top: 50%;
+    margin-left: -410px;
+    margin-top: -240px;
+    /* border-style: solid;
+      border-color: black;
+      border-width: 2px; */
+    background-image: url(/oes/resources/images/bottomBackground.jpg);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,
+    direction=120, strength=4); /*ie*/
+    -moz-box-shadow: 2px 2px 10px #909090; /*firefox*/
+    -webkit-box-shadow: 2px 2px 10px #909090; /*safari或chrome*/
+    box-shadow: 2px 2px 10px #909090; /*opera或ie9*/
+}
+
+.ccdiv3 {
+    position: absolute;
+    width: 400px;
+    height: 20px;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: 250px;
+}
+
+.copyright {
+    font-family: Microsoft Simhei, serif;
+    font-size: 17px;
+    color: #000000;
+    vertical-align: middle;
+}
+
+body {
+    background-image: url(/oes/resources/images/loginbg.png);
+    background-repeat: repeat;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+p.topFont {
+    position: relative;
+    left: 5%;
+    top: 37%;
+    font-family: Microsoft Simhei, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: black 2px 2px 2px;
+    vertical-align: middle;
+}
+
+table.loginTable {
+    position: relative;
+    left: 50%;
+    top: 15%;
+    width: 370px;
+    height: 320px;
+    font-family: Microsoft Simhei, serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    background-color: #EFF2FD;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#909090,
+    direction=120, strength=4); /*ie*/
+    -moz-box-shadow: 2px 2px 10px #909090; /*firefox*/
+    -webkit-box-shadow: 2px 2px 10px #909090; /*safari或chrome*/
+    box-shadow: 2px 2px 10px #909090; /*opera或ie9*/
+}
+
+.loginTableCell {
+    position: relative;
+    left: 5%;
+    top: 0%;
+    width: 100%;
+    height: 15%;
+    font-family: Microsoft Simhei, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.loginTableCell input {
+    width: 90%;
+    height: 80%;
+    font-size: 20px;
+}
+
+.input-field {
+    display: block;
+    height: 100%;
+}
+
+.login-tab {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    height: 20%;
+    width: 100%;
+    /* 	border-bottom: 4px solid #8DB5EB; */
+}
+
+.login-tab-item {
+    position: relative;
+    width: 50%;
+    height: 15%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #EFF2FD;
+    font-family: Microsoft Simhei, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.loginButtonCell {
+    position: relative;
+    width: 50%;
+    heigth: 15%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: normal;
+    color: black;
+    font-size: 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.loginButtonCell a{
+    width: 80%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.uncurrent {
+    background: #8DB5EB;
+    font-weight: bold;
+    color: white;
+}

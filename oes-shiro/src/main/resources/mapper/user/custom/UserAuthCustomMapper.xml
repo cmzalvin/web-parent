@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cmz.alvin.dao.UserAuthMapper" >
+<select id="getRoleById" parameterType="Integer" resultType="String">
+    SELECT ro.role FROM oes_user_role our
+    JOIN oes_role  ro ON ro.id=our.role_id
+    WHERE our.our.user_id=#{userId,jdbcType=INTEGER}
+</select>
+</mapper>
