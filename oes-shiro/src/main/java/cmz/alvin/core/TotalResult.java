@@ -5,24 +5,30 @@ import org.springframework.stereotype.Component;
 import java.io.Serializable;
 
 /**
- * Created by 尹前坤 on 2015/6/16.
+ * Created by e诺
+ * on 16/8/2
+ * Time 上午8:58
  */
 @Component
 public class TotalResult implements Serializable {
 
     private int code = 20000;  //状态码
-    private String message="success";//消息
+    private String message = "success";//消息
     private Object data;//服务数据
-    public TotalResult(){
+
+    public TotalResult() {
 
     }
-    public TotalResult(Object data){
+
+    public TotalResult(Object data) {
         this.data = data;
     }
-    public static TotalResult newIntance(){
+
+    public static TotalResult newIntance() {
         return new TotalResult();
     }
-    public static TotalResult newIntance(Object data){
+
+    public static TotalResult newIntance(Object data) {
         return new TotalResult(data);
     }
 
